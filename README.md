@@ -19,5 +19,16 @@ MOD、插件不支持新版本的MC，故不得不放弃了。
   2) 抛弃cauldron，拥抱sponge
   
 <font size=5>(注：仅代表NPCCRAFT方。是案尚未经邦联整体表决通过)</font>
-  
+
+
 乃搭建1.12.2测试服务端，制作测试客户端。为以后做准备。
+<br/><br/><br/>
+
+
+需要注意的地方有：
+  1) cauldron、bukkit所使用的插件API都是spigot API，故从不支持MOD的bukkit换用cauldron，服务器中所有插件不需要动。
+  但sponge所使用的插件API是sponge API。这导致sponge的生态世界与bukkit的生态世界完全不一样。使用sponge做服务器，需要更换几乎所有的插件(除了少数
+  即支持spigot API的又支持sponge API的插件)，所有的管理员需要重新学习新的插件的使用方法。
+  2) 在sponge的观念中，没有「MOD」与 「插件」之分。MOD与插件皆是plugin，只不过一个用了forge API，一个用了sponge API。
+
+  
